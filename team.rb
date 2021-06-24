@@ -4,7 +4,7 @@ class Team
   attr_accessor :name, :win, :lose, :draw
 
   # インスタンスを初期化するための、特別なメソッド
-  def initialize(name,win,lose,draw)
+  def initialize(name, win, lose, draw)
     self.name = name
     self.win = win
     self.lose = lose
@@ -23,18 +23,18 @@ class Team
 end
 
 # インスタンスの生成と、変数への代入
-Giants = Team.new('Giants',67,45,8)
-Tigers = Team.new('Tigers',60,53,7)
-Dragons = Team.new('Dragons',60,55,5)
-Baystars = Team.new('BayStars',56,58,6)
-Carp = Team.new('Carp',52,56,12)
-Swallows = Team.new('Swallows',41,69,10)
+giants = Team.new('Giants', 67, 45, 8)
+tigers = Team.new('Tigers', 60, 53, 7)
+dragons = Team.new('Dragons', 60, 55, 5)
+baystars = Team.new('BayStars', 56, 58, 6)
+carp = Team.new('Carp', 52, 56, 12)
+swallows = Team.new('Swallows', 41, 69, 10)
 
 
 # インスタンスの使用
-Giants.show_team_result()
-Tigers.show_team_result()
-Dragons.show_team_result()
-Baystars.show_team_result()
-Carp.show_team_result()
-Swallows.show_team_result()
+giants.show_team_result()
+tigers.show_team_result()
+dragons.show_team_result()
+baystars.show_team_result()
+carp.show_team_result()
+swallows.show_team_result()
